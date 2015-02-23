@@ -1,0 +1,103 @@
+<!DOCTYPE html>
+<html>
+    <head>
+         <title>Bootstrap 3</title>
+         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+         <link rel="stylesheet" href="css/bootstrap.min.css">
+         <link rel="stylesheet" href="css/style.css">
+    </head>
+    <body>
+        <div class="navbar navbar-inverse navbar-static-top">
+             <div class="container">
+              <div class="navbar-header">
+                <a href="#" class="navbar-brand">Tech Site</a> 
+
+                <button class="navbar-toggle" data-toggle="collapse" data-target = ".navHeaderCollapse">
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                    <span class="icon-bar"></span>
+                </button>
+              </div>
+
+                <div class="collapse navbar-collapse navHeaderCollapse">
+                    <ul class="nav navbar-nav navbar-right">
+
+                        <li class = "active" > <a href="#">Home</a> </li>
+                        <li> <a href="#">Blog</a> </li>
+
+                        <li class = "dropdown"> 
+                             <a href="#" class = "dropdown-toggle" data-toggle = "dropdown">Social Media <b class = "caret"></b> </a>
+                             <ul class = "dropdown-menu">
+                                 <li><a href="#">Twitter</a></li>
+                                 <li><a href="#">Facebook</a></li>
+                                 <li><a href="#">Instagram</a></li>
+                                 <li><a href="#">Google+</a></li>
+                             </ul>
+                        </li>
+                        
+                        <li> <a href="#">About</a> </li>
+                        <li> <a href="#contact" data-toggle = "modal">Contact us</a> </li>
+                        
+                    </ul>
+                </div>
+
+             </div>
+        </div>
+
+        <div class = "container">
+
+          <div class = "row">
+          
+           <div class = "col-lg-9">
+          
+            <div class = "panel panel-default">
+
+               <div class = "panel-body">
+                 <div class = "page-header">
+                   <h3>Whateva' <small>Posted on Feb 20th</small></h3>
+                 </div>
+
+                 <img class = "featureImg" src="img/sp.jpg" width="100%">
+                 <p>Mobile phone with an advanced operating system. Smartphones typically include the features of a phone with those of other popular mobile devices, such as personal digital assistant, media player and GPS navigation unit.  The capacitive touchscreen also had a knock-on effect on smartphone form factors. Before 2007 it was common for devices to have a physical numeric keypad or physical QWERTY keyboard in either a candybar or sliding form factor. However, by 2010, there were no top-tier smartphones with physical numeric keypads. </p>
+
+                 <h4>A Heading</h4>
+                 <p>Mobile phone with an advanced operating system. Smartphones typically include the features of a phone with those of other popular mobile devices, such as personal digital assistant, media player and GPS navigation unit.  The capacitive touchscreen also had a knock-on effect on smartphone form factors. Before 2007 it was common for devices to have a physical numeric keypad or physical QWERTY keyboard in either a candybar or sliding form factor. However, by 2010, there were no top-tier smartphones with physical numeric keypads. </p>
+
+               </div>
+              
+            </div>
+          
+           </div>
+        
+          </div>
+
+        </div>
+
+        <div class = "navbar navbar-default navbar-fixed-bottom">
+            <div class = "container">
+                <p class = "navbar-text pull-left">Site Built by JSantiago</p>
+                <a href="http://youtube.com/" class = "navbar-btn btn-danger btn pull-right">Suscribe to YouTube</a>
+            </div>
+        </div>
+
+        <div class = "modal fade" id = "contact" role = "dialog">
+            <div class = "modal-dialog">
+                <div class = "modal-content">
+                    <div class = "modal-header">
+                        <p>Contact Tech Site</p>
+                    </div>
+                    <div class = "modal-body">
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat.</p>
+                    </div>
+                    <div class = "modal-footer">
+                        <a href="#" class="btn btn-default" data-dismiss = "modal">Close</a>
+                        <a href="#" class="btn btn-primary" data-dismiss = "modal">Close</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    	<script src = "http://ajax.googleapis.com/ajax/libs/jquery/1.10.2/jquery.min.js"></script>
+    	<script src = "js/bootstrap.js"></script>
+    </body>
+</html>
